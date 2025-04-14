@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/experience",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Experience\\": "",
+            "Modules\\Experience\\App\\": "app/",
+            "Modules\\Experience\\Database\\Factories\\": "database/factories/",
+            "Modules\\Experience\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Experience\\Tests\\": "tests/"
+        }
+    }
+}
